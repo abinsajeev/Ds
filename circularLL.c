@@ -46,7 +46,7 @@ void insertAtPosition(int value, int position) {
     struct Node* newNode = createNode(value);
     struct Node* temp = head;
 
-    for (int i = 1; i < position - 1 && temp != NULL; i++)
+    for (int i = 1; i < position - 1 && temp  != NULL; i++)
         temp = temp->next;
 
     if (temp == NULL) {
